@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	<script type="text/javascript" src="js/window.js"></script>
+	<script type="text/javascript">
+		function realizar(){
+			window.location = "https://www.binarioconsultores.com";
+		}
+		function recargar(){
+			window.location.reload();
+		}
+		function actualizarFecha(){
+			var fecha = new Date();
+
+			setTimeout(()=>{
+				console.log(fecha);
+			},5000);
+		}
+		function actualizarFecha2(){
+			setInterval(()=>{
+				var fecha = new Date();
+				console.log(fecha);
+			}, 2000);
+		}
+		function actualizarFecha3(){
+			var fecha = new Date();
+			console.log(fecha);
+		}
+	</script>
+</head>
+<body>
+	<button onclick="realizar();">ABRIR PÁGINA</button>
+	<hr>
+	<button onclick="recargar();">REFRESCAR</button>
+	<hr>
+	<button onclick="actualizarFecha();">FECHA</button>
+	<hr>
+	<button onclick="actualizarFecha2();">FECHA cada 2 seguntos</button>
+	<hr>
+	<button onclick="setInterval(actualizarFecha3,1000);">FECHA cada 2 seguntos</button>
+</body>
+</html>

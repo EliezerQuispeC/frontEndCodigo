@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Formulario General</title>
+	<meta charset="utf-8">
+	<link rel="icon" type="image/png" href="icono.png">
+</head>
+<body>
+	<h1>Formulario General</h1>
+	<form action="05-registrar.html" method="get">
+		<table border="1">
+			<tr>
+				<td colspan="2">Formuario General</td>
+			</tr>
+			<tr>
+				<td>Nombre:</td>
+				<td><input type="name" placeholder="Juan Pérez" name="nombre"></td>
+			</tr>
+			<tr>
+				<td>Correo</td>
+				<td><input type="email" placeholder="juanperez@gmail.com" name="correo"></td>
+			</tr>
+			<tr>
+				<td>Género</td>
+				<td>
+					<label>Masculino</label><input type="radio" name="genero" value="m" checked="true">
+					<label>Femenino</label><input type="radio" name="genero" value="f">
+					<br>
+					<label>Adulto</label><input type="radio" name="categoria" value="a" checked="true">
+					<label>Niño</label><input type="radio" name="categoria" value="n">
+				</td>
+			</tr>
+			<tr>
+				<td>Descripción</td>
+				<td><textarea name="descripcion" cols="20" rows="2" placeholder="Cuéntanos un poco más acerca de ti"></textarea></td>
+			</tr>
+			<tr>
+				<td>Lenguajes</td>
+				<td>
+					<input type="checkbox" name="lenguaje" checked>Java
+					<input type="checkbox" name="lenguaje" checked>C#
+					<input type="checkbox" name="lenguaje">PHP
+					<input type="checkbox" name="lenguaje">Python
+				</td>
+			</tr>
+			<tr>
+				<td>Nacionalidad</td>
+				<td>
+					<select name="nacionalidad">
+						<option value="pe">Peruano</option>
+						<option value="ar">Argentino</option>
+						<option value="ve">Venezolano</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td>Día de la semana</td>
+				<td>
+					<datalist id="datos">
+						<option value="12312321" label="teléfono 1">
+						<option value="32323232" label="teléfono 2">
+					</datalist>
+					<p>
+						<label>
+							Teléfono:
+							<input type="tel" name="telefono" list="datos">
+						</label>
+					</p>
+				</td>
+			</tr>
+			<tr>
+				<td style="color: #4521a2; opacity: 0.5">Completado al 20%</td>
+				<td>
+					<progress value="20" max="100">20%</progress>
+				</td>
+			</tr>
+			<tr>
+				<td>Meter</td>
+				<td>
+					<meter value="60" min="0" max="100" low="40" high="80" optimum="100">60</meter>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2"><input type="submit" name="" value="Registrar"></td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>

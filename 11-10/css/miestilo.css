@@ -1,0 +1,30 @@
+p.parrafo1{
+	color: #ff0000;
+	text-decoration: underline;
+}
+.parrafo1{
+	color: #0000ff;
+	font-size: 40px;
+}
+span[name]{
+	font-size: 8px;
+	background-color: #ffff00;
+}
+tr:nth-child(2){
+	background-color: #5424aa;
+}
+.boton{
+	color: #ffffff;
+	background-color: blue; 
+	border-radius: 4px;
+	font-size: 17px;
+	padding-top: 2px
+	padding-bottom:2px;
+	padding-left: 2px;
+	padding-right: 20px;
+	font-family: harry;
+}
+@font-face{
+	font-family:'harry';
+	src: url('parryhotter.ttf');
+}

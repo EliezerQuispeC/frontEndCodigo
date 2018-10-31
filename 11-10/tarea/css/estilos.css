@@ -1,0 +1,42 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	max-width: 1280px;
+}
+.cuerpo{
+	display: flex;
+	justify-content: center;
+}
+header{
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f3e2c7+0,c19e67+50,b68d4c+51,e9d4b3+100;L+Brown+3D */
+	background: #f3e2c7; /* Old browsers */
+	background: -moz-linear-gradient(top, #f3e2c7 0%, #c19e67 50%, #b68d4c 51%, #e9d4b3 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #f3e2c7 0%,#c19e67 50%,#b68d4c 51%,#e9d4b3 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #f3e2c7 0%,#c19e67 50%,#b68d4c 51%,#e9d4b3 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3e2c7', endColorstr='#e9d4b3',GradientType=0 ); /* IE6-9 */
+	width: 100%;
+	height: 120px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+@font-face{
+	font-family:'Fabulous';
+	src: url('fonts/Fabulous.ttf');
+}
+.hencabezado{
+	font-family: Fabulous;
+	color: #730c0c;
+	font-size: 50px;
+}
+.principal{
+	width: 75%;
+}
+.sidebar{
+	width: 25%
+}
+.secundario{
+	width: 75%;
+}

@@ -1,0 +1,17 @@
+p{
+	color: #0000ff;
+	font-size: 20px;
+}
+.politica{
+	text-decoration: underline;
+	color: #ff0000;
+}
+.deportes{
+	text-decoration: underline;
+	color: green;
+}
+img{
+	float: right;
+	width: 200px;
+	height: 100px;
+}

@@ -1,0 +1,139 @@
+/*Eliminamos los margenes y paddings que agrega el navegador por defecto*/
+* {
+  padding: 0;
+  margin: 0;
+}
+body{
+	max-width: 1280px;
+}
+header{
+	
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#bfd255+0,8eb92a+50,72aa00+51,9ecb2d+100;Green+Gloss */
+	background: #bfd255; /* Old browsers */
+	background: -moz-linear-gradient(top, #bfd255 0%, #8eb92a 50%, #72aa00 51%, #9ecb2d 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #bfd255 0%,#8eb92a 50%,#72aa00 51%,#9ecb2d 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #bfd255 0%,#8eb92a 50%,#72aa00 51%,#9ecb2d 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bfd255', endColorstr='#9ecb2d',GradientType=0 ); /* IE6-9 */
+}
+.bienvenido{
+	text-align: center;
+	color: #FFFFFF;
+	font-family: 'Permanent Marker', cursive;
+	font-size: 40px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+nav{
+	background-color: #000000;
+  	width: 100%;
+  	z-index: 100;
+  	display: flex;
+    justify-content: center;
+}
+ 
+nav ul {
+  	list-style: none;
+  	overflow: hidden; /* Limpiamos errores de float */
+  	justify-content: center;
+}
+ 
+nav ul li {
+  	float: left;
+  	font-family: Arial, sans-serif;
+  	font-size: 16px;
+  	font-family: 'Permanent Marker', cursive;
+}
+ 
+nav ul li a {
+  	display: block; /* Convertimos los elementos a en elementos bloque para manipular el padding */
+  	padding: 20px;
+  	color: #ffffff;
+  	text-decoration: none;
+}
+ 
+nav ul li:hover {
+  background: #3ead47;
+}
+
+.contenido{
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 20px; 
+	display: flex;
+	border: 10px solid #ca0a0a;
+}
+.contenido1{
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 20px; 
+	display: flex;
+}
+.letra{
+	width: 70%;
+
+}
+.imagen{
+	width: 30%;
+}
+footer{
+	padding-top: 20px;
+	padding-bottom: 30px;
+	text-align: center;
+	background-color: #000000;
+	color: #ffffff;
+	font-family: 'Permanent Marker', cursive;
+	font-size: 20px;
+	margin-top: 20px;
+}
+.tabla{
+	width: 100%;
+	border: 1px solid #000000;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#a90329+0,8f0222+44,6d0019+100;Brown+Red+3D */
+	background: #a90329; /* Old browsers */
+background: -webkit-linear-gradient(#a90329 0%, #8f0222 44%, #6d0019 100%);
+background: -o-linear-gradient(#a90329 0%, #8f0222 44%, #6d0019 100%);
+background: linear-gradient(#a90329 0%, #8f0222 44%, #6d0019 100%); /* FF3.6-15 */ /* Chrome10-25,Safari5.1-6 */ /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a90329', endColorstr='#6d0019',GradientType=0 ); /* IE6-9 */
+}
+th, td{
+   	text-align: center; 
+	border: 1px solid #000000;
+}
+th{
+	font-size: 30px;
+}
+td{
+	font-size: 20px;
+}
+tr:nth-child(odd){ 
+	background: #fcfcfc;
+}
+tr:nth-child(even){ 
+	background: #dbdbdb;
+}
+.imgtab{
+	width: 100px;
+	height: 100px;
+}
+.mihr{
+	border-width: 5px;
+    border-color: #00ffff;
+}
+.divcon{
+	width: 300px;
+
+}
+.container2{
+	display:flex;
+	justify-content: center;
+}
+
+.container3{
+	justify-content: center;
+}
+.boton{
+	padding: 5px;
+	padding-right: 20px;
+	padding-left: 20px;
+}

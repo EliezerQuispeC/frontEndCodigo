@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>DOM</title>
+	<meta charset="utf-8">
+	<script type="text/javascript">
+		function iniciar(){
+			var x = document.getElementById("titulo");
+			x.style.backgroundColor = '#ff5522';
+			x.style.textDecoration = 'underline';
+		}
+		function anchoDeTitulo(){
+			var x = document.getElementById("titulo");
+			alert(x.clientWidth);
+		}
+	</script>
+	<style type="text/css">
+		*{
+			border : 1px;
+			border-style: solid;
+			border-color: #ff4455;
+		}
+	</style>
+</head>
+<body>
+	<h1 id="titulo">TITULO DE LA PÁGINA</h1>
+	<p name="parrafo">Mi parrafo 1</p>
+	<p name="parrafo">Mi parrafo 2</p>
+	<p>Mi parrafo 3</p>
+	<section id="misection">
+		<p>Mi parrafo 1 de section</p>
+		<p>Mi parrafo 2 de section</p>
+		<p>Mi parrafo 3 de section</p>
+	</section>
+	<button onclick="iniciar();">Click me!</button>
+	<button onclick="anchoDeTitulo()">Ancho de titulo</button>
+</body>
+</html>

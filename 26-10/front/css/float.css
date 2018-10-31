@@ -1,0 +1,25 @@
+p, footer, section{
+	border: 1px solid #ff4455;
+}
+#parrafo2{
+	background-color: blue;
+	margin: 0;
+}
+#parrafo1{
+	float: left;
+	width: 200px;
+	background-color: yellow;
+	margin: 0;
+}
+#parrafo3{
+	float: right;
+	width: 200px;
+	background-color: green;
+	margin: 0;
+}
+.clear{
+	clear: both;
+}
+section{
+	overflow: auto;
+}
